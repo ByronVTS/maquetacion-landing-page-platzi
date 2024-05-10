@@ -25,7 +25,7 @@ header .header-icons-container{
     background-color: #47cfac;
 }
 header .header-icons-container .icons{
-    width: 400px;
+    width: 300px;
     height: auto;
     display: flex;
     align-items: center;
@@ -34,4 +34,8 @@ header .header-icons-container .icons{
     /* le da una separacion entre los elementos internos */
     justify-self: end;
     /* coloca todo el conjunto de elementos a la derecha */
+    margin-right: 40px;
+}
+header .icons span{
+    color: white;
 }
