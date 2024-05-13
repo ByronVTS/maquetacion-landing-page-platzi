@@ -254,3 +254,30 @@ footer p {
     margin: 0;
 }
 /* -----------------CONTACT---------------------FIN */
+/* -----------------BLOG------------------------ */
+.blog-hero{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    display: block; 
+    margin: 0 auto;
+    
+}
+.blog-hr{
+    width: 100%;
+}
+.blog-post{
+    margin: 70px 180px 0 180px;
+}
+.blog-post-page{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.blog-post-title{
+    font-size: 2rem;
+}
+.blog-post-text{
+    font-size: 1.3rem;
+}
+/* -----------------BLOG------------------------FIN */
