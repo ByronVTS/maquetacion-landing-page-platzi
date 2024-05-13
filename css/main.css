@@ -191,5 +191,66 @@ footer p {
     color: white;
     font-size: 1.3rem;
 }
-
 /* -----------------FOOTER---------------------FIN */
+
+/* -----------------PROFILE-------------------- */
+.profile{
+    background-color: rgb(235, 233, 233);
+    padding: 80px 130px 80px 130px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.profile-img{
+    width: 100%;
+}
+.profile-right{
+    margin: 20px 30px 30px 30px;
+}
+.profile-right{
+    font-size: 1.3rem;
+}
+/* -----------------PROFILE--------------------FIN */
+
+/* -----------------PROYECTS-------------------- */
+.proyects h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.proyects-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 130px 80px 130px;
+    column-gap: 30px;
+}
+.proyects-card p{
+    font-size: 1.3rem;
+}
+/* -----------------PROYECTS--------------------FIN */
+/* -----------------CONTACT--------------------- */
+.contact{
+    padding: 80px 130px 80px 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(235, 233, 233);
+}
+.contact-card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: end;
+}
+.contact-img{
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-info {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.contact-info-title{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin: 0;
+}
+/* -----------------CONTACT---------------------FIN */
